@@ -21,7 +21,6 @@ function Register() {
       })
       toast.success("Registered successfully!");
       setcookieweb(data.token)
-      console.log(data);
       setIsAuthenticated(true)
       
       

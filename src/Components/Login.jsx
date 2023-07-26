@@ -19,8 +19,6 @@ function Login() {
       })
       toast.success("Logged in");
       setcookieweb(data.token);
-      console.log(data.token);
-      console.log(checkAuthentication());
       setIsAuthenticated(true)
       
     } catch (error) {
